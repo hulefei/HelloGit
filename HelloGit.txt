@@ -1,3 +1,7 @@
 This is my git test
 
+<<<<<<< HEAD
 this is a new master dev.
+=======
+this is new dev.
+>>>>>>> refs/heads/dev
