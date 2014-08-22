@@ -1,11 +1,1 @@
 master
-master1
-master2
-
-xxxxxxxxx
-
-
-
-
-dev
-
