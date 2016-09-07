@@ -10,6 +10,7 @@ iiiiii
 jjjjjj
 kkkkkk
 llllll
+<<<<<<< HEAD
 
 
 
@@ -29,3 +30,7 @@ llllll
 
 1
 2
+=======
+mmmmmm
+nnnnnn
+>>>>>>> dev
