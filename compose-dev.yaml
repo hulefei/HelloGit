@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  c-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile  # 确保Dockerfile在与此YAML文件相同的目录中
+    image: c-dev-env
+    volumes:
+      - .:/code  # 将当前目录挂载到容器的/code目录
+    command: /bin/bash  # 覆盖默认的CMD指令，以便可以进入bash会话
+    stdin_open: true  # 保持stdin开放，以便您可以交互地运行容器
+    tty: true  # 分配一个伪TTY，以便您可以交互地运行容器
