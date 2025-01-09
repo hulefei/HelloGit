@@ -3,7 +3,7 @@ name: Run app.py
 on:
   push:
     branches:
-      - main  # 监听 main 分支的 push 事件
+      - main  # 监听 main 分支的 push 事件1
 
 jobs:
   run-app:
