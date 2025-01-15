@@ -1,5 +1,6 @@
 # Use the official Nginx image as a base
-FROM csighub.tencentyun.com/hlibrary/nginx:latest
+# FROM csighub.tencentyun.com/hlibrary/nginx:latest
+FROM nginx:latest
 
 # Copy the custom Nginx configuration file
 COPY nginx.conf /etc/nginx/nginx.conf
